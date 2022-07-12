@@ -645,7 +645,6 @@ textarea.textarea-form-input {
   color: var(--second-color);
   margin-bottom: 30px;
   cursor: pointer;
-  /* display: block; */
 }
 .policy-checkbox-text::before {
   content: '';
