@@ -413,21 +413,13 @@
           <div class="footer-form-wrapper">
             <p class="footer-text">Подпишитесь на рассылку</p>
             <div class="form-footer-email-wrapper">
-              <input
-                class="email-footer"
-                type="email"
-                name="email-footer"
-                placeholder="E-mail"
-                id="email-form-footer"
-              />
-              <label for="email-form-footer">
-                <button type="submit" class="subscribe-btn-footer">
-                  Подписаться
-                  <svg class="footer-icon-btn" width="24" height="24">
-                    <use href="./images/sprite.svg#icon-send"></use>
-                  </svg>
-                </button>
-              </label>
+              <input class="email-footer" type="email" name="email-footer" placeholder="E-mail" />
+              <button type="submit" class="subscribe-btn-footer">
+                Подписаться
+                <svg class="footer-icon-btn" width="24" height="24">
+                  <use href="./images/sprite.svg#icon-send"></use>
+                </svg>
+              </button>
             </div>
           </div>
         </form>
@@ -486,10 +478,12 @@
             />
             <label class="policy-checkbox-text" for="policy-checkbox">
               Соглашаюсь с рассылкой и принимаю&nbsp;
-              <a class="link policy-checkbox-link" href="">Условия договора</a>
+              <a class="link policy-checkbox-link" href=""
+                ><span class="policy-checkbox-link-class"> Условия договора</span></a
+              >
             </label>
-            <button class="button-submit-input" type="submit">Отправить</button>
           </div>
+          <button class="button-submit-input" type="submit">Отправить</button>
         </form>
       </div>
     </div>
