@@ -5,8 +5,6 @@
   --logo-font: 'Raleway', sans-serif;
 }
 
-/* ====== START COMPONENTS ====== */
-
 body {
   font-family: var(--main-font);
   letter-spacing: 0.03em;
@@ -37,6 +35,8 @@ img {
 .address {
   font-style: normal;
 }
+
+/* ====== START COMPONENTS ====== */
 .title {
   font-weight: 700;
   font-size: 36px;
